@@ -1,0 +1,70 @@
+page{
+    color:#a9b7b7;
+}
+.xqimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xqimage image{
+    height: 200px;
+    width: 100%;
+}
+.listitem{
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+.listitem view{
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+.lenvo{
+    display: flex;
+}
+.lenvo text{
+    border: 1px solid #a9b7b7;
+    margin-right:10px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.lenvo navigator{
+    border: 1px solid #a9b7b7;
+    margin-right:10px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+.lenvo navigator text{
+    border: 0;
+    margin-right: 0;
+}
+.xuqiu{
+    display: flex;
+     padding: 10px 10px;
+
+}
+.xuqiu view{
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid #a9b7b7;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.pagelist{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pagelist view{
+    padding: 3px;
+    background: #999;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    margin: 1px;
+}

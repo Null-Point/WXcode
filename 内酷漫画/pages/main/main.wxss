@@ -1,0 +1,65 @@
+page{
+    color:#a9b7b7;
+}
+.indexht{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.collection{
+  height: 34px;
+   display: flex;
+   /*padding-top: 10px;*/
+   /*padding-bottom: 10px;*/
+}
+.swiper{
+  flex: 1;
+  /*overflow: hidden;*/
+}
+.swiper scroll-view{
+  height: 100%;
+}
+.collecOne{
+  flex: 1;
+  text-align: center;
+  height: 100%;
+  line-height: 34px;
+  border-radius: 3px;
+}
+.collecTwo{
+  flex: 1;
+  text-align: center;
+   line-height: 34px;
+    border-radius: 3px;
+}
+#bt button{
+    width: 100%;
+    font-size: 12px;
+    border: 0;
+}
+.tuijan{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  /*overflow: hidden;*/
+  box-sizing: border-box;
+  padding: 10px 5px;
+  }
+  .tuijan navigator{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 3px 3px;
+    text-align: center;
+  }
+ .tuijan navigatorn li{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .tuijan navigator li image{
+    width:100%;
+    height: 100px;
+  }
+  .bian{
+    overflow: hidden;
+  }

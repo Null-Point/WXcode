@@ -1,0 +1,55 @@
+<view class="indexht">
+<view class='collection'>
+<view class="collecOne" bindtap="shoucollecyion" style="background:{{onecolor}}">收藏</view>
+<view class="collecTwo"bindtap="hostcollection"  style="background:{{twocolor}}">历史</view>
+</view>
+<swiper class="swiper" current="{{current}}" bindchange="currentchange">
+<block>
+<swiper-item>
+<view class="user">
+  <image src='../../images/yonghu.png'></image>
+</view>
+<view class="hy">
+暂无收藏记录
+</view>
+<view class="hy">
+可以收藏喜欢的漫画以便查看
+</view>
+<view class="hy">
+或登录查看收藏记录
+</view>
+<view class="sgin">
+<view>
+一键登录
+</view>
+</view>
+<view class="classsign">
+<view>其他登录方式</view>
+</view>
+<view class="logo">
+<image src='../../images/xlweibo.png'></image>
+<text>新浪登录</text>
+<image src='../../images/txweibo.png'></image>
+<text>腾讯登录</text>
+<image src='../../images/bddenglu.png'></image>
+<text>百度登录</text>
+</view>
+<view class="logoin">
+<text>登陆后你可以</text>
+<text>云备份收藏的漫画</text>
+<text>多设备间同步阅读进度</text>
+<text>截图分享微博</text>
+</view>
+</swiper-item>
+<swiper-item>
+<view class="wyj">
+<image src='../../images/wyj.png'></image>
+</view>
+<view class="dongman">
+<view>暂无历史记录</view>
+<view>快去看看热门动漫吧</view>
+</view>
+</swiper-item>
+</block>
+</swiper>
+</view>

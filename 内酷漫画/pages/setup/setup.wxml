@@ -1,0 +1,25 @@
+<view class="rain">
+<image src='../../images/xiaoyonghu.png'></image>
+<text>个人中心</text>
+<image src='../../images/select.png'></image>
+</view>
+<view class="rain">
+<image src='../../images/download.png'></image>
+<text>下载管理</text>
+<image src='../../images/select.png'></image>
+</view>
+<view class="rain">
+<image src='../../images/se_t.png'></image>
+<text>软件设置</text>
+<image src='../../images/select.png'></image>
+</view>
+<view class="rain">
+<image src='../../images/message.png'></image>
+<text>意见反馈</text>
+<image src='../../images/select.png'></image>
+</view>
+<view class="rain">
+<image src='../../images/resh.png'></image>
+<text>检测升级</text>
+<image src='../../images/select.png'></image>
+</view>

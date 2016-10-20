@@ -1,0 +1,34 @@
+<view class="xqimage" wx:for='{{arrmy}}'>
+ <image src='{{item.img}}'></image>
+</view>
+<view class="listitem">
+<view>
+作者：无极战神
+</view>
+<view>
+战斗力：1186
+</view>
+<view>
+来源：互联网
+</view>
+<view>
+简介：从作为职业棋手且脾气古怪的祖父哪里学会了围棋，被其魅力所吸引的乌丸和歌（13岁），也萌生了成为棋手的想法，然而比起病倒的妻子（和歌的
+祖母）毅然选择比赛优先的祖父，不愿意和歌也变成那样的不懂人情的人人，母亲反对他接触围棋。
+</view>
+<view class="lenvo">
+<text bindtap="shoutext">收藏</text><navigator url='../article/article'><text>开始阅读</text></navigator>
+ <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    收藏成功
+  </toast>
+</view>
+</view>
+<view class="xuqiu">
+<view>相关推荐</view>
+<view>评论(5)</view>
+<view>下载</view>
+</view>
+<view class="pagelist">
+<view wx:for='{{tpages}}'>
+<text>{{item.title}}</text>
+</view>
+</view>

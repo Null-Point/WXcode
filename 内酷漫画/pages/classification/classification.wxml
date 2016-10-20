@@ -1,0 +1,13 @@
+<view class="search">
+<input type='text' placeholder='漫画名|作者'/><button >确定</button>
+</view>
+<view>
+<ul  class="classfen">
+<navigator url="../serialize/serialize" wx:for='{{initial}}'>
+<li>
+ <image src='{{item.img}}'></image>
+ <b>{{item.title}}</b>
+</li>
+</navigator>
+</ul>
+</view>

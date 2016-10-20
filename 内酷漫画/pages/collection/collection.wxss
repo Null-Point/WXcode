@@ -1,0 +1,108 @@
+page{
+    color:#a9b7b7;
+}
+.indexht{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.collection{
+  height: 34px;
+   display: flex;
+   /*padding-top: 10px;*/
+   /*padding-bottom: 10px;*/
+}
+.swiper{
+  flex: 1;
+  width: 100%;
+  /*height: 100%;*/
+}
+.collecOne{
+  flex: 1;
+  text-align: center;
+  height: 100%;
+  /*background: #999;*/
+  line-height: 34px;
+  border-radius: 3px;
+}
+.collecTwo{
+  flex: 1;
+  text-align: center;
+   line-height: 34px;
+    border-radius: 3px;
+}
+.user{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+.user image{
+  height: 80%;
+  width: 40%;
+}
+.hy{
+  text-align: center;
+  padding: 3px 0;
+}
+.sgin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.sgin view{
+  background: gold;
+  border-radius: 5px;
+  color: #fff;
+  height: 28px;
+  line-height: 28px;
+  width: 220px;
+  text-align: center;
+}
+.classsign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.classsign view{
+  padding-top: 5px;
+  width: 220px;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+   padding-top: 5px;
+}
+.logo image{
+  width: 30px;
+  height: 30px;
+}
+.logo text{
+  line-height: 30px;
+}
+.logoin{
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+}
+.logoin text{
+  text-align: center;
+  padding-top: 5px;
+}
+.wyj{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wyj image{
+  width: 120px;
+  height: 120px;
+}
+.dongman view{
+  padding-top: 5px;
+  text-align: center;
+}

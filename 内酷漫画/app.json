@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/collection/collection",
+    "pages/classification/classification",
+    "pages/setup/setup",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/details/details",
+    "pages/article/article",
+    "pages/serialize/serialize"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "Gold",
+    "navigationBarTitleText": "内酷漫画",
+    "navigationBarTextStyle":"black"
+   },
+ "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "Gold",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath":"pages/collection/collection",
+        "text": "收藏",
+        "iconPath": "images/shoucang.png",
+        "selectedIconPath": "images/shoucang_1.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "images/index_1.png",
+        "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath":"pages/classification/classification",
+        "iconPath": "images/fenlei.png",
+        "selectedIconPath": "images/fenlei_1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath":"pages/setup/setup",
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/set_1.png",
+        "text": "设置"
+      }
+    ]
+  }
+}

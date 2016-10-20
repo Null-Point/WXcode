@@ -1,0 +1,21 @@
+page{
+      color:#a9b7b7;
+}
+.rain{
+ display: flex;
+ justify-content: space-around;
+ padding: 0px 5px 0px 15px;
+ margin: 10px 0;
+ background: #ddd;
+ align-items: center;
+}
+.rain image{
+    /*flex: 1;*/
+    width: 30px;
+    height: 30px;
+}
+.rain text{
+    flex: 1;
+    line-height: 40px;
+    text-indent: 1em;
+}
